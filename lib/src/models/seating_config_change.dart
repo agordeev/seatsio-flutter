@@ -17,8 +17,7 @@ abstract class SeatingConfigChange
 
   String? get objectIcon;
 
-  /// See more: https://docs.seats.io/docs/renderer/config-maxselectedobjects/
-  int? get maxSelectedObjects;
+  List<Map<String, dynamic>>? get maxSelectedObjects;
 
   /// If [maxSelectedObjectList] is not null, it replaces [maxSelectedObjectList].
   List<Map<String, dynamic>>? get maxSelectedObjectList;

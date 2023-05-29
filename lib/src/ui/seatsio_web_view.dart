@@ -118,6 +118,7 @@ class _SeatsioWebViewState extends State<SeatsioWebView> {
   @override
   Widget build(BuildContext context) {
     return WebView(
+      backgroundColor: Color(0xFF333333),
       initialUrl: widget._initialUrl ?? "",
       javascriptMode: JavascriptMode.unrestricted,
       onWebViewCreated: (controller) {

@@ -279,6 +279,7 @@ abstract class SeatingChartConfig
       "showActiveSectionTooltipOnMobile": showActiveSectionTooltip ?? true,
       "showViewFromYourSeatOnMobile": showViewFromYourSeat ?? true,
       "showSectionContents": showSectionContents ?? "auto",
+      if (themeColor != null) "colorScheme": themeColor,
     };
 
     if (pricing != null) {
